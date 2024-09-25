@@ -1,7 +1,7 @@
 // pages/_app.js
 import { MantineProvider, ColorSchemeProvider, ColorScheme } from '@mantine/core';
 import { useState } from 'react';
-
+import '../styles/global.css';
 export default function MyApp({ Component, pageProps }) {
   const [colorScheme, setColorScheme] = useState('light');
 
